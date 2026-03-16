@@ -750,20 +750,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "mcp"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "reqwest",
- "rmcp",
- "serde",
- "serde_json",
- "tokio",
- "tracing",
- "tracing-subscriber",
-]
-
-[[package]]
 name = "memchr"
 version = "2.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1809,6 +1795,21 @@ dependencies = [
  "hashbrown 0.15.5",
  "indexmap",
  "semver",
+]
+
+[[package]]
+name = "weather"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "reqwest",
+ "rmcp",
+ "schemars",
+ "serde",
+ "serde_json",
+ "tokio",
+ "tracing",
+ "tracing-subscriber",
 ]
 
 [[package]]
